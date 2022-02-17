@@ -1,5 +1,5 @@
 # Repositori untuk Pengumpulan Tugas Praktikum Pemrograman Berorientasi Objek
-Identitas Diri:
+## Identitas Diri
 - Nama: Muhammad Handi Rachmawan
 - NIM: 123200125
 - Kelas: Praktikum Berorientasi Objek IF-F

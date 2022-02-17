@@ -1,4 +1,5 @@
-# Repositori untuk Pengumpulan Tugas Praktikum Pemrograman Berorientasi Objek
+# OOP Lab Submission
+Repositori untuk Pengumpulan Tugas Praktikum Pemrograman Berorientasi Objek.
 ## Identitas Diri
 - Nama: Muhammad Handi Rachmawan
 - NIM: 123200125

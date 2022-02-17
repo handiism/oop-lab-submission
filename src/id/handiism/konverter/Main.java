@@ -3,7 +3,7 @@ package id.handiism.konverter;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double celcius;
         int opsi;
@@ -37,12 +37,12 @@ public class Main {
                 System.out.format("Dalam Reamur             : %.1f°R\n", konversi.keReamur());
                 System.out.format("Dalam Kelvin             : %.2fK\n", konversi.keKelvin());
 
-                if (celcius <= 0) {
+                if (konversi.nilaiCelcius() <= 0) {
                     System.out.println("Kondisi Air Beku.");
-                } else if (celcius >= 100) {
-                    System.out.println("Kondisi Air Normal.");
-                } else {
+                } else if (konversi.nilaiCelcius() >= 100) {
                     System.out.println("Kondisi Air Mendidih.");
+                } else {
+                    System.out.println("Kondisi Air Normal.");
                 }
             } else if (opsi == 2) {
                 System.out.println("Input Data");

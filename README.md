@@ -6,4 +6,4 @@ Identitas Diri:
 ## Daftar Tugas
 1. [Program Konverter Suhu](https://github.com/handirachmawan/oop-lab-submission/tree/01-konverter-suhu)
 ## Bantuan
-File tugas ada di cabang repositori ini.
+File tugas ada di branch selain branch master di repositori ini.

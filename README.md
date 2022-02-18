@@ -10,7 +10,7 @@ Repositori untuk Pengumpulan Tugas Praktikum Pemrograman Berorientasi Objek.
 
 ## Daftar Tugas
 
-1. Program Konverter Suhu \[[Source Code](https://github.com/handirachmawan/oop-lab-submission/tree/01-konverter-suhu)\] \[[Penjelasan](https://www.youtube.com/channel/UC1DEXfFYT8pu1fEyhvTaS2Q)\]
+1. Program Konverter Suhu \[[Source Code](https://github.com/handirachmawan/oop-lab-submission/tree/01-konverter-suhu)\] \[[Penjelasan](https://youtu.be/E5FRTGqQIjY)\]
 
 ## Bantuan
 

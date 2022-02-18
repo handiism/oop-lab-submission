@@ -15,3 +15,7 @@ Repositori untuk Pengumpulan Tugas Praktikum Pemrograman Berorientasi Objek.
 ## Bantuan
 
 File tugas ada di branch selain branch master di repositori ini.
+
+## NB
+
+Kalau mau, akun github ku bisa di follow loh kak, ehehehe.

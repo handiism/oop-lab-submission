@@ -8,6 +8,18 @@ public class Tabung extends Lingkaran implements MenghitungRuang {
         this.tinggi = tinggi;
     }
 
+    public Tabung(float jarijari) {
+        super(jarijari);
+    }
+
+    public float getTinggi() {
+        return tinggi;
+    }
+
+    public void setTinggi(float tinggi) {
+        this.tinggi = tinggi;
+    }
+
     @Override
     public float hitungLuasPermukaan() {
         return 2 * this.hitungLuas() + this.hitungKeliling() * this.tinggi;

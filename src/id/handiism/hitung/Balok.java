@@ -8,6 +8,18 @@ public class Balok extends PersegiPanjang implements MenghitungRuang {
         this.tinggi = tinggi;
     }
 
+    public Balok(float panjang, float lebar) {
+        super(panjang, lebar);
+    }
+
+    public float getTinggi() {
+        return tinggi;
+    }
+
+    public void setTinggi(float tinggi) {
+        this.tinggi = tinggi;
+    }
+
     @Override
     public float hitungLuasPermukaan() {
         return 2 * (this.getPanjang() * this.getLebar() + this.getPanjang() * this.tinggi

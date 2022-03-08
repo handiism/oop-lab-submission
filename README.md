@@ -10,12 +10,9 @@ Repositori untuk Pengumpulan Tugas Praktikum Pemrograman Berorientasi Objek.
 
 ## Daftar Tugas
 
-1. Program Konverter Suhu \[[Source Code](https://github.com/handirachmawan/oop-lab-submission/tree/01-konverter-suhu)\] \[[Penjelasan](https://youtu.be/E5FRTGqQIjY)\]
+1. Program Konverter Suhu \[[Source Code](https://github.com/handirachmawan/oop-lab-submission/tree/01-konverter-suhu)\] \[[Video](https://youtu.be/E5FRTGqQIjY)\]
+2. Program Balok Tabung \[[Source Code](https://github.com/handirachmawan/oop-lab-submission/tree/02-balok-tabung)\] \[[Video](https://youtu.be/e9B5YHp43tI)\]
 
 ## Bantuan
 
 File tugas ada di branch selain branch master di repositori ini.
-
-## NB
-
-Kalau mau, akun github ku bisa di follow loh kak, ehehehe.

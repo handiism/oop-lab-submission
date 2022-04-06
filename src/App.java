@@ -14,7 +14,7 @@ public class App {
             System.out.print("Pilih Jenis Form : ");
 
             try {
-                menu = in.nextInt();
+                menu = Integer.parseInt(in.nextLine());
             } catch (Exception e) {
                 System.out.println();
                 continue;
@@ -28,7 +28,7 @@ public class App {
                 System.out.print("Input NIK : ");
                 String nik = in.nextLine();
                 System.out.print("Input Nama : ");
-                String nama = in.nextLine();
+                String nama = in.next();
 
                 System.out.print("Input Nilai Tes Tulis : ");
                 try {

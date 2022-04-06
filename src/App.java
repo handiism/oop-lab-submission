@@ -26,9 +26,9 @@ public class App {
                 System.out.println();
                 System.out.println("FORM PENDAFTARAN");
                 System.out.print("Input NIK : ");
-                String nik = in.next();
+                String nik = in.nextLine();
                 System.out.print("Input Nama : ");
-                String nama = in.next();
+                String nama = in.nextLine();
 
                 System.out.print("Input Nilai Tes Tulis : ");
                 try {

@@ -3,10 +3,8 @@ public class Android implements Divisi {
 
     @Override
     public double hitungKelolosan(Nilai nilai) {
-        double totalNilai = nilai.getTulis() * bobot.getTulis() + nilai.getKoding() * bobot.getKoding()
+        return nilai.getTulis() * bobot.getTulis() + nilai.getKoding() * bobot.getKoding()
                 + nilai.getWawancara() * bobot.getWawancara();
-        double jumlahParameterDinilai = 3;
-        return totalNilai / jumlahParameterDinilai;
     }
 
 }

@@ -48,7 +48,7 @@ public class Pelamar {
     }
 
     private String ucapan() {
-        return this.kelolosan() ? "Selamat kepada " + this.nama + "telah diterima sebagai divisi"
+        return this.kelolosan() ? "Selamat kepada " + this.nama + " telah diterima sebagai divisi "
                 + divisi.getClass().getSimpleName()
                 : "Mohon maaf kepada " + this.nama + " telah ditolak sebagai divisi " + divisi.getClass().getSimpleName();
     }

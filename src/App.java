@@ -14,13 +14,14 @@ public class App {
             System.out.print("Pilih Jenis Form : ");
 
             try {
-                menu = Integer.parseInt(in.nextLine());
+                String temp = in.nextLine();
+                menu = Integer.parseInt(temp);
             } catch (Exception e) {
                 System.out.println();
                 continue;
             }
 
-            if (menu == 1) {
+            if (menu == 1 || menu == 2) {
                 divisi = new Android();
 
                 System.out.println();
@@ -28,7 +29,7 @@ public class App {
                 System.out.print("Input NIK : ");
                 String nik = in.nextLine();
                 System.out.print("Input Nama : ");
-                String nama = in.next();
+                String nama = in.nextLine();
 
                 System.out.print("Input Nilai Tes Tulis : ");
                 try {
@@ -138,6 +139,8 @@ public class App {
                         break;
                     }
                 } while (true);
+                break;
+            } else {
                 break;
             }
         } while (true);

@@ -18,13 +18,13 @@ public class User implements repository.User {
     @Override
     public entity.User Store(entity.User user) {
         try {
-            pstmt = database.connection().prepareStatement("INSERT INTO user (username,password) VALUES (?, ?)",
+            pstmt = database.connection().prepareStatement("INSERT INTO users (username,password) VALUES (?, ?)",
                     new String[] { "id", "username", "password" });
             pstmt.setString(1, user.getUsername());
             pstmt.setString(2, user.getPassword());
 
             pstmt.executeUpdate();
-            Log.println(Level.INFO, String.format("INSERT INTO user (username,password) VALUES (%s, %s)",
+            Log.println(Level.INFO, String.format("INSERT INTO users (username,password) VALUES (%s, %s)",
                     user.getUsername(), user.getPassword()));
 
             ResultSet keys = pstmt.getGeneratedKeys();
@@ -54,11 +54,11 @@ public class User implements repository.User {
     public entity.User Fetch(String username) {
         entity.User user = new entity.User();
         try {
-            pstmt = database.connection().prepareStatement("SELECT * FROM user WHERE username = ?");
+            pstmt = database.connection().prepareStatement("SELECT * FROM users WHERE username = ?");
             pstmt.setString(1, username);
 
             ResultSet keys = pstmt.executeQuery();
-            Log.println(Level.INFO, String.format("SELECT * FROM user WHERE username = '%s'", username));
+            Log.println(Level.INFO, String.format("SELECT * FROM users WHERE username = '%s'", username));
 
             if (keys.next()) {
                 user.setId(keys.getInt("id"));
